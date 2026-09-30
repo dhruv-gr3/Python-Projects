@@ -1,0 +1,9 @@
+n=int(input("Enter the length of fibonacci sequence"))
+a=int(input("Enter the number u want the sequence to start with"))
+b=1
+while n!=0:
+    print(a, end="")
+    c=a+b
+    a=b
+    b=c
+    n-=1
